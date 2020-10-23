@@ -1,0 +1,20 @@
+
+  <div class="container-fluid padding">
+     <div class="form-group">
+       <label for=""></label>
+       <input type="text" 
+         class="form-control"  (keyup)="searchLivre()" [(ngModel)]="searchText" name="" id="" aria-describedby="helpId" placeholder="Recherche ...">
+     </div>
+    <div class="row" >
+    <div *ngFor="let livre of livres" style="padding: 70px;" class="col-xs-12 col-md-6 col-lg-4 ">
+        <div class="card" (click)="getLivre(livre._id)"  >
+            <span>
+                <img class="card-img-top" src={{livre.image}} alt="Card image cap">
+            </span>
+             <span class="card-body text-center"> 
+                <h6 class="card-title">{{livre.titre}}</h6>
+            </span>    
+        </div>
+    </div>
+    </div>
+</div>

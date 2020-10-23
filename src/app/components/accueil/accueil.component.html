@@ -1,0 +1,81 @@
+    <div id="carouselId" class="carousel slide" data-ride="carousel" > 
+      <ol class="carousel-indicators">
+        <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselId" data-slide-to="1"></li>
+        <li data-target="#carouselId" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item   active animate__animated  animate__flash" style="background-color: black;" >
+          <img src="../assets/images/carousel1.jpg" style="opacity: .5 " class="img-fluid d-block" alt="First slide">
+              <div class="carousel-caption   d-md-block" >
+              <h1> Concours Masters <span></span> </h1>
+              <h1> et Masters Spécialisé<span></span> </h1>
+              <h1>  2020/2021 Maroc<span></span> </h1>
+              <a href="https://www.supmaroc.com/category/master/" target="_blank" type="button" class="cat animate__animated animate__backInUp">aller à</a>
+          </div>
+        </div>
+        <div class="carousel-item animate__animated  animate__flash" style="background-color: black;">
+          <img src="../assets/images/carousel2.jpg" style="opacity: .3 " class="img-fluid" alt="Second slide">
+          <div class="carousel-caption  d-md-block "  >
+            <h1 >Concours des écoles  <span></span> </h1>
+            <h1 > d'ingénieurs <span></span> </h1>
+            <h1 > 2020/2021 au Maroc<span></span> </h1>
+            <a href="https://www.supmaroc.com/category/ecole-dingenieurs/" target="_blank" type="button" class="cat animate__animated animate__backInUp">aller à</a>
+          </div>
+        </div>
+        <div class="carousel-item animate__animated  animate__flash" style="background-color: black;">
+          <img src="../assets/images/carousel3.jpg" style="opacity: .3 " class="img-fluid" alt="Third slide">
+          <div class="carousel-caption  d-md-block ">
+            <h1 >Etude  <span></span> </h1>
+            <h1 > à l’étranger <span></span> </h1>
+            <a href="https://www.supmaroc.com/category/etude-etranger/" target="_blank" type="button" class="cat animate__animated animate__backInUp">aller à</a>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>  
+
+      <div class="container-fluid ">
+        <hr class="my-2">         
+        <h1 class="display-4" style="text-align: center;"  >L'Objectif:</h1>
+        <hr class="my-2">         
+        <p class="lead text-justify">Le projet <img src="../../../assets/images/logo.png" alt="logo"> présentait aux étudiants de la filière Sciences Mathématiques et Applications (SMA), en tous les modules des trois années: </p>
+              <div class="row">
+                        <div *ngFor="let objectif of objectifs;" class="col-xs-12 col-md-6 col-lg-4" >
+                            <div class="card  animate__animated animate__backInLeft ">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">{{objectif}}</h5>
+                                </div>       
+                             </div>
+                        </div>
+              </div>                    
+    </div>
+    <div class="container-fluid " style="background-color:#ffffff;">
+        <div class="row">
+          <div class="col-xs-12 col-md-6 col-lg-9">
+               <hr class="my-2">
+               <h1 class="display-4" style="text-align: center;">Votre Guide:</h1>
+               <hr class="my-2">
+               <p class="lead text-justify" >
+                Je suis Jalal ZAIRI, élève ingénieur en développement des services numériques à L'institut National des Postes et Télécommunications (INPT), j'ai obtenu ma licence en Sciences Mathématiques et Applications (SMA) en 2019 à l'Université Sidi Mohamed Ben Abdellah. Je vous aiderai à apprendre le programme de la filière SMA de manière efficace, en effet je partagerai avec vous  mon expérience et mes connaissances humble.
+               </p>
+               <img src="../../../assets/images/logo.png" alt="">
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-3 ">
+            <img  src="../../../assets/images/JalalZairi.jpg" width="700px"  class="img-fluid mx-auto d-block my-photo" alt="">
+           </div>
+
+        </div>
+    </div>
+    <div class="container-fluid padding">
+      <app-contact></app-contact>
+    </div>    
+
+    

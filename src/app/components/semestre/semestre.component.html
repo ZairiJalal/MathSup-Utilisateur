@@ -1,0 +1,9 @@
+<hr class="my-2">
+<h1 class="display-4"> Semester {{semestre.numero}} </h1>
+<hr class="my-2">
+
+<div class="row">
+    <div *ngFor="let module of modules;" class="col-xs-12 col-md-6 col-lg-4 animated slideInDown animate__zoomInDown" >
+        <app-module  [module]="module" [annee_id]="semestre.annee_id"></app-module>
+    </div>
+</div>

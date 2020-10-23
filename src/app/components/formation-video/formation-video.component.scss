@@ -1,0 +1,47 @@
+.display-4{
+    color: rgba(0,54,121,0.97);
+    
+}
+.video{
+    background:  rgb(248, 248, 248);
+
+}
+.list-group-item{
+    color: #004dac;
+}
+.list-group-item:hover{
+    background: #f5d7e0;
+} 
+.container{
+    min-width: 100%;
+}
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+  }
+  @media (min-width: 992px  ){
+    .iframe-container iframe{
+         height: 550px;
+      }
+}
+@media (max-width: 992px  ){
+    .iframe-container iframe{
+         height: 100%;
+      }
+}
+@media (max-width: 768px){
+    .iframe-container iframe{
+         height: 100%;
+      }
+}
+
+
+

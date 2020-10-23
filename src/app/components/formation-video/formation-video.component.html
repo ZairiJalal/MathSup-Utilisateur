@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="row text-left">  
+    <div class=" col-md-12 col-lg-9 video   iframe-container"   >
+      <iframe width="800px" height="400px" style="margin: 5px;"
+        [src]='link'
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+
+  </div>
+    <div class=" col-md-12 col-lg-3 video" >
+      <h4 class="display-4 text-center">{{module.titre}}</h4>
+      <div class="scrollable" style="height: 400px;overflow: scroll;">
+        <br>
+        <div class="list-group"*ngFor="let formationVIDEO of formationsVIDEO;">
+        <li class="list-group-item d-flex justify-content-between align-items-center " (click)="ChangeVideo(formationVIDEO.lien)" >
+          {{formationVIDEO.titre}}  
+          <span class="badge badge-danger badge-pill" >
+            play
+          </span> 
+        </div> 
+       </div>    
+   </div>
+    
+    
+
+ 
+</div>
+
+</div>

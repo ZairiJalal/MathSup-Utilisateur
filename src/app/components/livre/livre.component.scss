@@ -1,0 +1,23 @@
+.card{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: 0.3s ;
+        
+}
+.card img{
+	border-radius: 10px;
+}
+.card:hover{
+    transform: translateY(-10px);
+    border: 1px solid #e61f5b;
+	background: #f5d7e0;
+}
+.form-control:hover{
+    background: #f5d7e0;
+    border: 1.5px solid #e61f5b;
+
+}
+.container-fluid{
+    background-color: rgb(228, 228, 228);
+}

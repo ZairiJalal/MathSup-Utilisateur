@@ -1,0 +1,25 @@
+.livre{
+    /* background-image: url(../../../assets/images/math1.jpg); */
+    /* opacity: .3 ; */
+    /* background-color: black; */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.livre:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .3 ; 
+}
+h5,h3,h1{
+    color:rgba(0,54,121,0.97);
+}
+ 
+p,li{
+    color: #0064df;
+}
