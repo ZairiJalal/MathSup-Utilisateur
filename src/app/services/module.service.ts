@@ -7,7 +7,7 @@ import { Module } from '../models/module';
 })
 export class ModuleService {
 
-  apiUrl="http://localhost:3000/api/modules";
+  apiUrl="https://mathsup-api.herokuapp.com/api/modules";
   
   constructor(private http : HttpClient) { }
 

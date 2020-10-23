@@ -7,7 +7,7 @@ import { Annee } from '../models/annee';
 })
 export class AnneeService {
   
-  apiUrl="http://localhost:3000/api/annees";
+  apiUrl="https://mathsup-api.herokuapp.com/api/annees";
   
   constructor(private http : HttpClient) { }
 

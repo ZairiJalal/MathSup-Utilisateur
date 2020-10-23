@@ -7,7 +7,7 @@ import { Semestre } from '../models/semestre';
 })
 export class SemestreService {
 
-  apiUrl="http://localhost:3000/api/semestres";
+  apiUrl="https://mathsup-api.herokuapp.com/api/semestres";
   
   constructor(private http : HttpClient) { }
 

@@ -7,7 +7,7 @@ import { Formation } from '../models/formation';
 })
 export class FormationService {
   
-  apiUrl="http://localhost:3000/api/formations";
+  apiUrl="https://mathsup-api.herokuapp.com/api/formations";
   
   constructor(private http : HttpClient) { }
 

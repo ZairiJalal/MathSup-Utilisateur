@@ -8,7 +8,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class LivresService {
   
-  apiUrl="https://api-mathsup.herokuapp.com/api/livres";
+  apiUrl="https://mathsup-api.herokuapp.com/api/livres";
   constructor(private http : HttpClient) { }
 
   findAll(){
